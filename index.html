@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-t" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Grand Pet Store — Sản phẩm cho thú cưng</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="firstTimeBanner" class="welcome-banner hidden">
+    <p>🎉 Chào bạn mới! Chúng tôi đã giảm 10% trên tất cả sản phẩm cho đơn hàng đầu tiên của bạn!</p>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+  <a class="logo" href="#">Grand Pet Store</a>
+      <nav class="main-nav">
+        <a href="#">Trang chủ</a>
+        <a href="#products">Sản phẩm</a>
+        <a href="#about">Giới thiệu</a>
+        <a href="#camket">Cam kết</a>
+        <a href="#contact">Nhận ưu đãi</a>
+      </nav>
+      <div class="header-actions">
+        <div class="search">
+          <input id="searchInput" type="search" placeholder="Tìm sản phẩm, ví dụ: hạt, dây dắt..." />
+        </div>
+        <button id="cartBtn" class="cart-btn" aria-label="Giỏ hàng">
+          🛒 <span id="cartCount" class="cart-count">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <svg class="hero-paw" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M100 120c20 0 34 12 34 26s-14 26-34 26-34-12-34-26 14-26 34-26z" fill="#0d6efd" opacity="0.08"/>
+            <ellipse cx="70" cy="68" rx="14" ry="18" fill="#0d6efd" opacity="0.08"/>
+            <ellipse cx="100" cy="48" rx="14" ry="18" fill="#0d6efd" opacity="0.08"/>
+            <ellipse cx="130" cy="68" rx="14" ry="18" fill="#0d6efd" opacity="0.08"/>
+            <ellipse cx="84" cy="36" rx="10" ry="12" fill="#0d6efd" opacity="0.08"/>
+            <ellipse cx="116" cy="36" rx="10" ry="12" fill="#0d6efd" opacity="0.08"/>
+          </g>
+        </svg>
+        <h1>Chăm sóc thú cưng - An toàn, tiện lợi, hợp túi tiền</h1>
+        <p>Chọn sản phẩm chất lượng cho người bạn bốn chân của bạn. Giao hàng nhanh & chính sách đổi trả linh hoạt.</p>
+        <a href="#products" class="btn-primary">Xem sản phẩm</a>
+      </div>
+    </section>
+
+    <section id="featured-product" class="featured-product-section"></section>
+
+    <section id="products" class="container products-section">
+      <h2>Sản phẩm khác</h2>
+      <div id="productsGrid" class="products-grid">
+        </div>
+    </section>
+
+    <section id="about" class="container about">
+      <h3>Về Grand Pet Store</h3>
+      <p>Tại Grand Pet Store, chúng tôi hiểu rằng thú cưng là thành viên không thể thiếu trong gia đình bạn. Đó là lý do chúng tôi xây dựng một giải pháp chăm sóc toàn diện, đặt sự an toàn và sức khỏe của chúng lên hàng đầu.</p>
+      <p>Chúng tôi mang đến sự kết hợp hoàn hảo: từ Vòng cổ Định vị GPS Thông minh giúp bạn theo dõi và bảo vệ người bạn bốn chân khỏi mọi nguy cơ đi lạc, đến các sản phẩm Dinh dưỡng cao cấp và Phụ kiện chất lượng để đảm bảo chúng luôn khỏe mạnh và hạnh phúc mỗi ngày.</p>
+      <p>Hãy để Grand Pet Store đồng hành cùng bạn, mang đến sự an tâm và những điều tốt đẹp nhất cho người bạn thân yêu của mình.</p>
+    </section>
+
+    <section id="camket" class="container about">
+      <h3>Cam kết chất lượng và sự tận tâm</h3>
+      <p>Mọi sản phẩm tại Grand Pet Store, từ bộ đồ chơi kích thích trí tuệ, dụng cụ chải lông chuyên nghiệp, đến dây dắt cao cấp, đều trải qua quá trình kiểm tra nghiêm ngặt về chất lượng, độ bền và độ an toàn.</p>
+      <p>Chúng tôi cam kết trở thành đối tác đáng tin cậy của bạn trong hành trình làm "Sen" thông minh. Grand Pet Store – Vì sự an tâm của bạn và cuộc sống tốt đẹp nhất cho thú cưng.</p>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h3>Nhận tin & Ưu đãi</h3>
+      <p>Đăng ký nhận bản tin và ưu đãi. Vui lòng cung cấp thông tin cần thiết để chúng tôi phục vụ bạn tốt hơn.</p>
+      <form id="newsletterForm" class="newsletter-form">
+        <input type="text" name="name" placeholder="Họ và tên" required />
+        <input type="tel" name="phone" placeholder="Số điện thoại" required />
+        <input type="email" name="email" placeholder="Email của bạn" required />
+        <button class="btn-primary" type="submit">Đăng ký</button>
+      </form>
+      <p class="muted" style="margin-top:8px">Chúng tôi tôn trọng quyền riêng tư của bạn. Thông tin chỉ dùng để gửi ưu đãi và thông báo liên quan.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-col brand">
+        <strong>Grand Pet Store</strong>
+        <p>Chăm sóc thú cưng tận tâm. Sản phẩm an toàn và dịch vụ chu đáo.</p>
+      </div>
+
+      <div class="footer-col links">
+        <h4>Quick links</h4>
+        <ul>
+          <li><a href="#products">Sản phẩm</a></li>
+          <li><a href="#about">Giới thiệu</a></li>
+          <li><a href="#contact">Nhận ưu đãi</a></li>
+          <li><a href="#">Chính sách đổi trả</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col support">
+        <h4>Hỗ trợ</h4>
+        <ul>
+          <li><a href="#">Trợ giúp</a></li>
+          <li><a href="#">Giao hàng & vận chuyển</a></li>
+          <li><a href="#">Thanh toán</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col social">
+        <h4>Kết nối với chúng tôi</h4>
+        <div class="social-icons">
+          <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="#1877F2" xmlns="http://www.w3.org/2000/svg"><path d="M22 12.07C22 6.48 17.52 2 11.93 2S2 6.48 2 12.07C2 17.03 5.66 21.13 10.44 21.95v-6.99H7.9v-2.9h2.54V9.84c0-2.51 1.5-3.9 3.79-3.9 1.1 0 2.24.2 2.24.2v2.47h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.9h-2.34V22C18.34 21.13 22 17.03 22 12.07z"/></svg>
+          </a>
+          <a href="https://www.tiktok.com" target="_blank" rel="noopener" aria-label="TikTok">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="#000" xmlns="http://www.w3.org/2000/svg"><path d="M12 2v12.5A4.5 4.5 0 1 1 9.5 10V7a6 6 0 0 0 2.5.5V2z"/></svg>
+          </a>
+          <a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="YouTube">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="#FF0000" xmlns="http://www.w3.org/2000/svg"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.8 31.8 0 0 0 0 12a31.8 31.8 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.8 31.8 0 0 0 24 12a31.8 31.8 0 0 0-.5-5.8zM9.8 15.6V8.4l6.4 3.6-6.4 3.6z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span id="year"></span> Grand Pet Store. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div id="cartModal" class="modal hidden">
+    <div class="modal-content">
+      <button class="modal-close" id="closeCart">✖</button>
+      <h3>Giỏ hàng</h3>
+      <div id="cartItems" class="cart-items"></div>
+      <div class="cart-summary">
+        <div>Thành tiền: <strong id="cartTotal">0 ₫</strong></div>
+        <div class="cart-actions">
+          <button id="clearCart" class="btn-secondary">Xóa giỏ hàng</button>
+          <button id="checkoutBtn" class="btn-primary">Thanh toán</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="checkoutModal" class="modal hidden">
+    <div class="modal-content">
+      <button class="modal-close" id="closeCheckout">✖</button>
+      <h3>Thanh toán</h3>
+      <form id="checkoutForm" class="checkout-form">
+        <label>Họ tên<input name="name" required /></label>
+        <label>Số điện thoại<input name="phone" required /></label>
+        <label>Địa chỉ<input name="address" required /></label>
+        <label>Phương thức thanh toán
+          <select name="method">
+            <option>Thanh toán khi nhận hàng (COD)</option>
+            <option>Chuyển khoản</option>
+            <option>Thẻ/Tín dụng (giả lập)</option>
+          </select>
+        </label>
+        <div class="checkout-actions">
+          <button type="button" id="backToCart" class="btn-secondary">Quay lại</button>
+          <button type="submit" class="btn-primary">Xác nhận & Thanh toán</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div id="confirmModal" class="modal hidden">
+    <div class="modal-content">
+      <button class="modal-close" data-close="confirm">✖</button>
+      <h3>Đặt hàng thành công</h3>
+      <p id="orderMsg">Cảm ơn! Đơn hàng của bạn đã được ghi nhận.</p>
+      <div class="modal-actions">
+        <button class="btn-primary" data-close="confirm">Đóng</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
+
+  <script src="//code.tidio.co/engj8fpxtxd4zvphqrojy4cxpcpcwbut.js" async></script>
+
+</body>
+</html>
