@@ -19,7 +19,7 @@ body:after{content:"";position:fixed;inset:0;pointer-events:none;background-imag
 
 /* ===== PHẦN HERO ĐÃ SỬA ===== */
 .hero {
-  height: 1250px; /* Chiều cao cố định cho banner */
+  height: 1090px; /* Chiều cao cố định cho banner */
   background-image: url('./img/bgr-home.png'); /* Đường dẫn đến ảnh */
   background-size: cover; /* Phóng to ảnh để lấp đầy banner */
   background-position: center; /* Luôn lấy trung tâm ảnh làm trọng tâm */
