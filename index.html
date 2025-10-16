@@ -13,13 +13,13 @@
 
   <header class="site-header">
     <div class="container header-inner">
-  <a class="logo" href="#">Grand Pet Store</a>
+    <a class="logo" href="#">Grand Pet Store</a>
       <nav class="main-nav">
-        <a href="#">Trang chủ</a>
-        <a href="#products">Sản phẩm</a>
-        <a href="#about">Giới thiệu</a>
-        <a href="#camket">Cam kết</a>
-        <a href="#contact">Nhận ưu đãi</a>
+        <a href="index.html">Trang chủ</a>
+        <a href="sp.html">Sản phẩm</a>
+        <a href="gt.html">Giới thiệu</a>
+        <a href="ck.html">Cam kết</a>
+        <a href="ud.html">Nhận ưu đãi</a>
       </nav>
       <div class="header-actions">
         <div class="search">
@@ -34,55 +34,23 @@
 
   <main>
     <section class="hero">
+    </section>
+    <section class="promo-section-text">
       <div class="container">
-        <svg class="hero-paw" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <g fill="none" fill-rule="evenodd">
-            <path d="M100 120c20 0 34 12 34 26s-14 26-34 26-34-12-34-26 14-26 34-26z" fill="#0d6efd" opacity="0.08"/>
-            <ellipse cx="70" cy="68" rx="14" ry="18" fill="#0d6efd" opacity="0.08"/>
-            <ellipse cx="100" cy="48" rx="14" ry="18" fill="#0d6efd" opacity="0.08"/>
-            <ellipse cx="130" cy="68" rx="14" ry="18" fill="#0d6efd" opacity="0.08"/>
-            <ellipse cx="84" cy="36" rx="10" ry="12" fill="#0d6efd" opacity="0.08"/>
-            <ellipse cx="116" cy="36" rx="10" ry="12" fill="#0d6efd" opacity="0.08"/>
-          </g>
-        </svg>
-        <h1>Chăm sóc thú cưng - An toàn, tiện lợi, hợp túi tiền</h1>
-        <p>Chọn sản phẩm chất lượng cho người bạn bốn chân của bạn. Giao hàng nhanh & chính sách đổi trả linh hoạt.</p>
-        <a href="#products" class="btn-primary">Xem sản phẩm</a>
+        <h2>🎉 Giảm ngay 10% cho đơn hàng đầu tiên</h2>
+        <img src="./img/brg-home-2.png" alt="Giảm giá 10% cho đơn hàng đầu tiên" class="promo-image">
+        <p>Với đơn hàng đầu tiên, bạn được giảm ngay 10%. Áp dụng với tất cả các sản phẩm trong cửa hàng.</p>
+        <a href="sp.html" class="btn-primary">Mua sắm ngay</a>
       </div>
     </section>
 
-    <section id="featured-product" class="featured-product-section"></section>
+    <section class="featured-product-wrapper">
+  <div class="container">
+    <h2 class="section-title">⭐ BEST SELLER</h2>
 
-    <section id="products" class="container products-section">
-      <h2>Sản phẩm khác</h2>
-      <div id="productsGrid" class="products-grid">
-        </div>
-    </section>
-
-    <section id="about" class="container about">
-      <h3>Về Grand Pet Store</h3>
-      <p>Tại Grand Pet Store, chúng tôi hiểu rằng thú cưng là thành viên không thể thiếu trong gia đình bạn. Đó là lý do chúng tôi xây dựng một giải pháp chăm sóc toàn diện, đặt sự an toàn và sức khỏe của chúng lên hàng đầu.</p>
-      <p>Chúng tôi mang đến sự kết hợp hoàn hảo: từ Vòng cổ Định vị GPS Thông minh giúp bạn theo dõi và bảo vệ người bạn bốn chân khỏi mọi nguy cơ đi lạc, đến các sản phẩm Dinh dưỡng cao cấp và Phụ kiện chất lượng để đảm bảo chúng luôn khỏe mạnh và hạnh phúc mỗi ngày.</p>
-      <p>Hãy để Grand Pet Store đồng hành cùng bạn, mang đến sự an tâm và những điều tốt đẹp nhất cho người bạn thân yêu của mình.</p>
-    </section>
-
-    <section id="camket" class="container about">
-      <h3>Cam kết chất lượng và sự tận tâm</h3>
-      <p>Mọi sản phẩm tại Grand Pet Store, từ bộ đồ chơi kích thích trí tuệ, dụng cụ chải lông chuyên nghiệp, đến dây dắt cao cấp, đều trải qua quá trình kiểm tra nghiêm ngặt về chất lượng, độ bền và độ an toàn.</p>
-      <p>Chúng tôi cam kết trở thành đối tác đáng tin cậy của bạn trong hành trình làm "Sen" thông minh. Grand Pet Store – Vì sự an tâm của bạn và cuộc sống tốt đẹp nhất cho thú cưng.</p>
-    </section>
-
-    <section id="contact" class="container contact">
-      <h3>Nhận tin & Ưu đãi</h3>
-      <p>Đăng ký nhận bản tin và ưu đãi. Vui lòng cung cấp thông tin cần thiết để chúng tôi phục vụ bạn tốt hơn.</p>
-      <form id="newsletterForm" class="newsletter-form">
-        <input type="text" name="name" placeholder="Họ và tên" required />
-        <input type="tel" name="phone" placeholder="Số điện thoại" required />
-        <input type="email" name="email" placeholder="Email của bạn" required />
-        <button class="btn-primary" type="submit">Đăng ký</button>
-      </form>
-      <p class="muted" style="margin-top:8px">Chúng tôi tôn trọng quyền riêng tư của bạn. Thông tin chỉ dùng để gửi ưu đãi và thông báo liên quan.</p>
-    </section>
+    <div id="featured-product"></div>
+  </div>
+</section>
   </main>
 
   <footer class="site-footer">
@@ -95,9 +63,9 @@
       <div class="footer-col links">
         <h4>Quick links</h4>
         <ul>
-          <li><a href="#products">Sản phẩm</a></li>
-          <li><a href="#about">Giới thiệu</a></li>
-          <li><a href="#contact">Nhận ưu đãi</a></li>
+          <li><a href="sp.html">Sản phẩm</a></li>
+          <li><a href="gt.html">Giới thiệu</a></li>
+          <li><a href="ud.html">Nhận ưu đãi</a></li>
           <li><a href="#">Chính sách đổi trả</a></li>
         </ul>
       </div>
@@ -112,18 +80,29 @@
       </div>
 
       <div class="footer-col social">
-        <h4>Kết nối với chúng tôi</h4>
-        <div class="social-icons">
-          <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="#1877F2" xmlns="http://www.w3.org/2000/svg"><path d="M22 12.07C22 6.48 17.52 2 11.93 2S2 6.48 2 12.07C2 17.03 5.66 21.13 10.44 21.95v-6.99H7.9v-2.9h2.54V9.84c0-2.51 1.5-3.9 3.79-3.9 1.1 0 2.24.2 2.24.2v2.47h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.9h-2.34V22C18.34 21.13 22 17.03 22 12.07z"/></svg>
-          </a>
-          <a href="https://www.tiktok.com" target="_blank" rel="noopener" aria-label="TikTok">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="#000" xmlns="http://www.w3.org/2000/svg"><path d="M12 2v12.5A4.5 4.5 0 1 1 9.5 10V7a6 6 0 0 0 2.5.5V2z"/></svg>
-          </a>
-          <a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="YouTube">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="#FF0000" xmlns="http://www.w3.org/2000/svg"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.8 31.8 0 0 0 0 12a31.8 31.8 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.8 31.8 0 0 0 24 12a31.8 31.8 0 0 0-.5-5.8zM9.8 15.6V8.4l6.4 3.6-6.4 3.6z"/></svg>
-          </a>
-        </div>
+        <h4>Thông tin liên hệ</h4>
+        <ul class="contact-info">
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            <a href="tel:0123456789">0123456789</a>
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            <a href="mailto:grandpetstore@gmail.com">grandpetstore@gmail.com</a>
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+            <a href="#" target="_blank">Grand Pet Store</a>
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            <a href="#" target="_blank">_grandpetstore_01</a>
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <span>99 Hồ Đắc Di, An Cựu, TP. Huế</span>
+          </li>
+        </ul>
       </div>
 
       <div class="footer-bottom">
