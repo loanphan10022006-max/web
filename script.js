@@ -2,7 +2,7 @@
 const PRODUCTS = [
   {
     id: 'p1',
-    title: 'Vòng cổ cho thú cưng gắn định vị kèm sạc',
+    title: 'Vòng cổ định vị kèm sạc',
     colors: ['Xanh','Đỏ','Cam','Hồng','Đen'],
     img: 'img/vong-co-dinh-vi.jfif',
     images: [ 'img/vong-co-dinh-vi.jfif', 'img/vc1.jfif', 'img/vc2.jfif', 'img/vc3.jfif', 'img/vc4.jfif' ],
@@ -314,5 +314,7 @@ function initializeApp() {
   renderProducts(OTHER_PRODUCTS);
   renderCart();
 }
+
+
 
 initializeApp();
