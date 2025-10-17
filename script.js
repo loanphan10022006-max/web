@@ -2,7 +2,7 @@
 const PRODUCTS = [
   {
     id: 'p1',
-    title: 'Vòng cổ định vị kèm sạc',
+    title: 'Vòng cổ thông minh gắn định vị',
     colors: ['Xanh','Đỏ','Cam','Hồng','Đen'],
     img: 'img/vong-co-dinh-vi.jfif',
     images: [ 'img/vong-co-dinh-vi.jfif', 'img/vc1.jfif', 'img/vc2.jfif', 'img/vc3.jfif', 'img/vc4.jfif' ],
