@@ -4,9 +4,9 @@ const PRODUCTS = [
     id: 'p1',
     title: 'Vòng cổ thông minh gắn định vị',
     colors: ['Xanh','Đỏ','Cam','Hồng','Đen'],
-    img: 'img/vong-co-dinh-vi.jfif',
-    images: [ 'img/vong-co-dinh-vi.jfif', 'img/vc1.jfif', 'img/vc2.jfif', 'img/vc3.jfif', 'img/vc4.jfif' ],
-    desc: 'An toàn Tuyệt đối. Theo dõi vị trí GPS/LBS chính xác 24/7. Cảnh báo tức thì khi thú cưng rời khỏi vùng an toàn. Tích hợp theo dõi sức khỏe và hoạt động.',
+    img: 'img/vc4.jfif',
+    images: [ 'img/vc4.jfif', 'img/vc1.jfif', 'img/vc2.jfif', 'img/vc3.jfif', 'img/vong-co-dinh-vi.jfif' ],
+    desc: 'An toàn Tuyệt đối. Theo dõi vị trí chính xác 24/7. Cảnh báo tức thì khi thú cưng rời khỏi vùng an toàn. Tích hợp theo dõi sức khỏe và hoạt động.',
     price: 349000
   },
   {
